@@ -1,0 +1,44 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .botao {
+        margin-top: 1%;
+        width: 100%;
+        font-size: 12px;
+        cursor: pointer;
+        transition: .3s ease all;
+    }
+    .main-film {
+        height: 600px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        margin: 0;
+    }
+    .container {
+        margin: 0;
+        align-items: center;
+    }
+    .titulo {
+        margin-right: 100px;
+        align-items: center;
+        font-size: 70px;
+        font-family: 'Arial';
+    }
+    .main-film .container {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
